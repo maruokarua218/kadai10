@@ -1,6 +1,6 @@
 class DropPicture < ActiveRecord::Migration[6.0]
   def change
-    drop_table :test_camels do |t|
+    drop_table :pictures do |t|
       t.string :name, null: false
     end
   end
